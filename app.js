@@ -16,7 +16,7 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI = 'mongodb://brad:brad@ds257838.mlab.com:57838/mongouploads';
+const mongoURI = 'mongodb+srv://vk_live:TheSyndicate@cluster0.3e4dh.mongodb.net/businessaccount';
 
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
